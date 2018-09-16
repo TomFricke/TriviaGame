@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+        <script src="assets/javascript/app.js"></script>
+        
+        
+    </head>
+    <body>
+	    <header id="masthead">
+		    <div class="container">
+			    <h1>King Gizzard and the Lizard Wizard Trivia</h1>
+		    </div>
+	    </header>
+	    <div id="main-container" class="container">
+		    <section class="main-section">
+                <h1 class="instructions">Instructions</h1>
+                <p class="rules">You have one minute to answer five question about the band.</p>
+                <h2>
+                    <button type="button" id="start-button">Click here to start</button>
+                </h2>
+                <div id="show-number"></div>
+                <p class="question">1. How many albums did they come out with in 2017?</p>
+                <ul class="answers">
+                    <input type="radio" name="q1" value="a" id="aq1"><label for="aq1">1</label><br/>
+                    <input type="radio" name="q1" value="b" id="aq2"><label for="aq2">8</label><br/>
+                    <input type="radio" name="q1" value="c" id="aq3"><label for="aq3">3</label><br/>
+                    <input type="radio" name="q1" value="d" id="aq3"><label for="aq4">5</label><br/>
+                </ul>
+                <p class="question">2. How many members are in the band?</p>
+                <ul class="answers">
+                    <input type="radio" name="q2" value="a" id="bq1"><label for="bq1">5</label><br/>
+                    <input type="radio" name="q2" value="b" id="bq2"><label for="bq2">4</label><br/>
+                    <input type="radio" name="q2" value="c" id="bq3"><label for="bq3">7</label><br/>
+                    <input type="radio" name="q2" value="d" id="bq4"><label for="bq4">9</label><br/>
+                </ul>
+                <p class="question">3. What is the name of the lead singer?</p>
+                <ul class="answers">
+                    <input type="radio" name="q3" value="a" id="cq1"><label for="cq1">Stuart Little</label><br/>
+                    <input type="radio" name="q3" value="b" id="cq2"><label for="cq2">Beef Stew </label><br/>
+                    <input type="radio" name="q3" value="c" id="cq3"><label for="cq3">Stu Mackenzie</label><br/>
+                    <input type="radio" name="q3" value="d" id="cq4"><label for="cq4">Stuart Weitzman</label><br/>
+                </ul>
+                <p class="question">4. How many drummers are in the band?</p>
+                <ul class="answers">
+                    <input type="radio" name="q4" value="a" id="dq1"><label for="dq1">0</label><br/>
+                    <input type="radio" name="q4" value="b" id="dq2"><label for="dq2">2</label><br/>
+                    <input type="radio" name="q4" value="c" id="dq3"><label for="dq3">1</label><br/>
+                    <input type="radio" name="q4" value="d" id="dq4"><label for="dq4">3</label><br/>
+                </ul>
+                <p class="question">5. How many of the members are currently in at least 1 other band?</p>
+                <ul class="answers">
+                    <input type="radio" name="q5" value="a" id="eq1"><label for="eq1">1</label><br/>
+                    <input type="radio" name="q5" value="b" id="eq2"><label for="eq2">7</label><br/>
+                    <input type="radio" name="q5" value="c" id="eq3"><label for="eq3">3</label><br/>
+                    <input type="radio" name="q5" value="d" id="eq4"><label for="eq4">4</label><br/>
+                </ul>
+                <button type="button" id="submit">Done!</button>
+
+			    <div id="results1">
+			        correct answers
+                </div>
+                <div id="results2">
+                    wrong answers
+                </div>
+                <div id="results3">
+                    unanswered
+                </div>
+                
+                <button type="button" id="restart">Want to play again?</button>
+            
+            </section>
+	    </div>
+    </body>
+</html>

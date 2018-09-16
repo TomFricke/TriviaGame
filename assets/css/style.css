@@ -1,1 +1,60 @@
+body {
+	background-image: url("http://indieunderground.ca/wp-content/uploads/2014/05/2-King-Gizzard-and-The-Lizard-Wizard-CMW-Indie-Underground-Aaron-McMillan.jpg");
+	font-size: 30px;
+	line-height: 34px;
+	color: darkolivegreen;
+}
 
+header{
+	background-color: teal;
+	height: 200px;
+}
+header, section{
+    width: 75%;
+    height: 75%;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
+header h1{
+	padding: 30px;
+	font-size: 45px;
+	font-style: bold;
+	font-weight: bold;
+}
+h2{
+	font-size: 65px;
+}
+ul{
+	text-align: auto;
+}
+button{
+	background-color: lightcoral;
+	width: 20%;
+	height: 20px;
+	opacity: 1 !important;
+	margin-top: 30px;
+}
+.question, .answers{
+    width: 75%;
+    font-size: 20px;
+	margin-left: auto;
+    margin-right: auto;
+
+    text-align: left;
+
+}
+.main-section{
+    background-color: purple;
+    color: pink;
+    opacity: 0.7;
+}
+#restart, #submit, #results1, #results2, #results3, .question, .answers{
+    display: none;
+}
+
+.instructions{
+	font-size: 20px;
+	font-style: bold;
+	font-weight: bold;
+}
